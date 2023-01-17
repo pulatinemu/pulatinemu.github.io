@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="zh-Hans" data-default-color-scheme=auto>
+<html lang="zh-CN" data-default-color-scheme=auto>
 
 
 
@@ -16,19 +16,24 @@
   <meta name="author" content="PZ">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="article">
-<meta property="og:title" content="就这个">
-<meta property="og:url" content="http://example.com/2023/01/17/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/index.html">
+    <meta name="description" content="日期：2022-08-04时间：11:26科目：动力学 等效力和等效力矩功率相等 等效质量和等效转动惯量动能相等 系统自由度简化的方法集中质量法做出合理假设，尽量减少自由度数 广义坐标法就是一组能够完整描述系统的独立变量广义坐标的个数等于自由度数如果约束方程中含有时间，就是非定常约束 有限元法虚功原理和广义力实位移和虚位移实位移具有确定的方向，虚位移根据约束不同，方向也不同虚位移和时间没关系，只和">
+<meta property="og:type" content="article">
+<meta property="og:title" content="1-虚功原理、广义力、等效质量和惯量和力">
+<meta property="og:url" content="http://example.com/2023/01/17/dong-li-xue/1-xu-gong-yuan-li-guang-yi-li-deng-xiao-zhi-liang-he-guan-liang-he-li/index.html">
 <meta property="og:site_name" content="Pulatinemu">
-<meta property="og:locale">
-<meta property="article:published_time" content="2023-01-17T11:54:23.842Z">
-<meta property="article:modified_time" content="2023-01-17T11:59:15.026Z">
+<meta property="og:description" content="日期：2022-08-04时间：11:26科目：动力学 等效力和等效力矩功率相等 等效质量和等效转动惯量动能相等 系统自由度简化的方法集中质量法做出合理假设，尽量减少自由度数 广义坐标法就是一组能够完整描述系统的独立变量广义坐标的个数等于自由度数如果约束方程中含有时间，就是非定常约束 有限元法虚功原理和广义力实位移和虚位移实位移具有确定的方向，虚位移根据约束不同，方向也不同虚位移和时间没关系，只和">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/source/pic/111.png">
+<meta property="article:published_time" content="2023-01-17T13:50:16.317Z">
+<meta property="article:modified_time" content="2023-01-17T14:11:41.416Z">
 <meta property="article:author" content="PZ">
+<meta property="article:tag" content="动力学">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/source/pic/111.png">
   
   
   
-  <title>就这个 - Pulatinemu</title>
+  <title>1-虚功原理、广义力、等效质量和惯量和力 - Pulatinemu</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -112,7 +117,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/">
                 <i class="iconfont icon-home-fill"></i>
-                <span>Home</span>
+                <span>首页</span>
               </a>
             </li>
           
@@ -124,7 +129,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/archives/">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>Archives</span>
+                <span>归档</span>
               </a>
             </li>
           
@@ -136,7 +141,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/categories/">
                 <i class="iconfont icon-category-fill"></i>
-                <span>Categories</span>
+                <span>分类</span>
               </a>
             </li>
           
@@ -148,7 +153,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/tags/">
                 <i class="iconfont icon-tags-fill"></i>
-                <span>Tags</span>
+                <span>标签</span>
               </a>
             </li>
           
@@ -160,7 +165,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/about/">
                 <i class="iconfont icon-user-fill"></i>
-                <span>About</span>
+                <span>关于</span>
               </a>
             </li>
           
@@ -194,7 +199,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="就这个"></span>
+            <span id="subtitle" data-typed-text="1-虚功原理、广义力、等效质量和惯量和力"></span>
           
         </div>
 
@@ -205,8 +210,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-01-17 19:54" pubdate>
-          January 17, 2023 pm
+        <time datetime="2023-01-17 21:50" pubdate>
+          2023年1月17日 晚上
         </time>
       </span>
     
@@ -217,7 +222,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          0 words
+          810 字
         
       </span>
     
@@ -228,7 +233,7 @@
         
         
         
-          1 mins
+          7 分钟
         
       </span>
     
@@ -266,12 +271,27 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">就这个</h1>
+            <h1 style="display: none">1-虚功原理、广义力、等效质量和惯量和力</h1>
             
             
               <div class="markdown-body">
                 
-                
+                <p>日期：2022-08-04<br>时间：11:26<br>科目：动力学</p>
+<h2 id="等效力和等效力矩"><a href="#等效力和等效力矩" class="headerlink" title="等效力和等效力矩"></a>等效力和等效力矩</h2><p>功率相等</p>
+<h2 id="等效质量和等效转动惯量"><a href="#等效质量和等效转动惯量" class="headerlink" title="等效质量和等效转动惯量"></a>等效质量和等效转动惯量</h2><p>动能相等</p>
+<h2 id="系统自由度简化的方法"><a href="#系统自由度简化的方法" class="headerlink" title="系统自由度简化的方法"></a>系统自由度简化的方法</h2><h5 id="集中质量法"><a href="#集中质量法" class="headerlink" title="集中质量法"></a>集中质量法</h5><p>做出合理假设，尽量减少自由度数</p>
+<h5 id="广义坐标法"><a href="#广义坐标法" class="headerlink" title="广义坐标法"></a>广义坐标法</h5><p>就是一组能够完整描述系统的独立变量<br>广义坐标的个数等于自由度数<br>如果约束方程中含有时间，就是非定常约束</p>
+<h5 id="有限元法"><a href="#有限元法" class="headerlink" title="有限元法"></a>有限元法</h5><h2 id="虚功原理和广义力"><a href="#虚功原理和广义力" class="headerlink" title="虚功原理和广义力"></a>虚功原理和广义力</h2><h5 id="实位移和虚位移"><a href="#实位移和虚位移" class="headerlink" title="实位移和虚位移"></a>实位移和虚位移</h5><p>实位移具有确定的方向，虚位移根据约束不同，方向也不同<br>虚位移和时间没关系，只和约束有关<br>虚位移用变分表示，实位移用微分表示</p>
+<figure class="highlight llvm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs llvm">变分和微分一般的区分是这样的：变分表示任意微元，有时候也表示假想的微元，如虚功原理中所用的变分；而微分表示特定的微元，微分主要是和积分相对应的。  <br>综上  <br>微分和变分都有各自改变的量和不变的量<span class="hljs-punctuation">,</span>微分是给定一个函数f(<span class="hljs-keyword">x</span>)<span class="hljs-punctuation">,</span>让自变量<span class="hljs-keyword">x</span>有微小增量  <br>变分是固定自变量<span class="hljs-keyword">x</span><span class="hljs-punctuation">,</span>让函数f(<span class="hljs-keyword">x</span>)有微小改变<span class="hljs-punctuation">,</span>它研究的是函数的变化<br></code></pre></td></tr></table></figure>
+
+<h5 id="理想约束和虚功"><a href="#理想约束和虚功" class="headerlink" title="理想约束和虚功"></a>理想约束和虚功</h5><p>任意虚位移上，所有约束反力虚功之和为零<br>所受的力在虚位移上做的功，用$\delta W$表示</p>
+<h6 id="虚功原理（虚位移原理）"><a href="#虚功原理（虚位移原理）" class="headerlink" title="虚功原理（虚位移原理）"></a>虚功原理（虚位移原理）</h6><p>主动力在任何虚位移中所做的虚功的和为0<br><img src="/source/pic/111.png" srcset="/img/loading.gif" lazyload alt="地王大厦"></p>
+<p>直角坐标形式<br>![[Pasted image 20220804164602.png|500]]</p>
+<h2 id="广义力的求法"><a href="#广义力的求法" class="headerlink" title="广义力的求法"></a>广义力的求法</h2><p>[[3-两自由度机械系统动力学#确定广义力|应用]]<br>![[Pasted image 20220804164927.png|500]]<br><font face="宋体" color=red size=4>这个Q就是广义力</font> </p>
+<h5 id="公式直接计算"><a href="#公式直接计算" class="headerlink" title="公式直接计算"></a>公式直接计算</h5><p>把$\delta r$用xyz分量表示<br>![[Pasted image 20220804165106.png|500]]<br>对于主动力是有势力，并且知道势能的话，广义力就可以表示为<br>![[Pasted image 20220804165258.png]]</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs">保守力之和始末位置有关<br></code></pre></td></tr></table></figure>
+<h5 id="利用虚功原理间接计算"><a href="#利用虚功原理间接计算" class="headerlink" title="利用虚功原理间接计算"></a>利用虚功原理间接计算</h5><p>就是根据各虚位移之间是相互独立的，根据虚功原理列出关于多个虚位移的方程，那么就要保证各虚位移前面的系数为0<br>![[Pasted image 20220804165831.png|500]]</p>
+
                 
               </div>
             
@@ -279,6 +299,13 @@
             <div>
               <div class="post-metas my-3">
   
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E5%8A%A8%E5%8A%9B%E5%AD%A6/">#动力学</a>
+      
+    </div>
   
 </div>
 
@@ -288,32 +315,32 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>就这个</div>
-      <div>http://example.com/2023/01/17/这是一个测试/</div>
+      <div>1-虚功原理、广义力、等效质量和惯量和力</div>
+      <div>http://example.com/2023/01/17/dong-li-xue/1-xu-gong-yuan-li-guang-yi-li-deng-xiao-zhi-liang-he-guan-liang-he-li/</div>
     </div>
     <div class="license-meta">
       
         <div class="license-meta-item">
-          <div>Author</div>
+          <div>作者</div>
           <div>PZ</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
-          <div>Posted on</div>
-          <div>January 17, 2023</div>
+          <div>发布于</div>
+          <div>2023年1月17日</div>
         </div>
       
       
       
         <div class="license-meta-item">
-          <div>Licensed under</div>
+          <div>许可协议</div>
           <div>
             
               
               
                 <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
-                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
                     <i class="iconfont icon-by"></i>
                   </span>
                 </a>
@@ -333,13 +360,19 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/2023/01/17/dong-li-xue/2-da-lang-bei-er-yuan-li-yun-dong-xue-pu-bian-fang-cheng/" title="">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile"></span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/01/17/obsidian%20git+hexo+GitHub+Github%20action%E9%83%A8%E7%BD%B2/" title="obsidian git+hexo+GitHub+Github action部署">
-                        <span class="hidden-mobile">obsidian git+hexo+GitHub+Github action部署</span>
-                        <span class="visible-mobile">Next</span>
+                      <a href="/2023/01/17/yi-ge/zhe-shi-yi-ge-ce-shi/" title="就这个">
+                        <span class="hidden-mobile">就这个</span>
+                        <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
                     
@@ -360,7 +393,7 @@
     <div id="toc">
   <p class="toc-header">
     <i class="iconfont icon-list"></i>
-    <span>Table of Contents</span>
+    <span>目录</span>
   </p>
   <div class="toc-body" id="toc-body"></div>
 </div>
@@ -416,7 +449,7 @@
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -424,7 +457,7 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -603,7 +636,7 @@
   
 
   <noscript>
-    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
 </body>
 </html>
