@@ -62,12 +62,6 @@
         <content type="html"><![CDATA[<ul><li><input disabled="" type="checkbox"> 税务局</li></ul>]]></content>
       
       
-      <categories>
-          
-          <category> 个人 </category>
-          
-      </categories>
-      
       
     </entry>
     
@@ -81,18 +75,6 @@
         <content type="html"><![CDATA[<p>在obsidian中写内容</p><h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p>官网下载</p><h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><h2 id="GitHub建立-用户名-github-io-库"><a href="#GitHub建立-用户名-github-io-库" class="headerlink" title="GitHub建立  用户名.github.io 库"></a>GitHub建立  用户名.github.io 库</h2><h2 id="安装git-选择hexo文件夹"><a href="#安装git-选择hexo文件夹" class="headerlink" title="安装git 选择hexo文件夹"></a>安装git 选择hexo文件夹</h2><pre><code>obsidian gitFolder focus mode</code></pre><h2 id="配置action"><a href="#配置action" class="headerlink" title="配置action"></a>配置action</h2><p>建立 源文件库<br>配置ssh和token<br>添加action</p><h2 id="分别commit-push命令"><a href="#分别commit-push命令" class="headerlink" title="分别commit push命令"></a>分别commit push命令</h2>]]></content>
       
       
-      <categories>
-          
-          <category> 教程 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> obsidian;hexo;github </tag>
-            
-        </tags>
       
     </entry>
     
