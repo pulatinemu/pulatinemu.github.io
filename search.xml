@@ -4,79 +4,9 @@
   
     
     <entry>
-      <title></title>
-      <link href="/2023/01/18/new/wei-ming-ming/"/>
-      <url>/2023/01/18/new/wei-ming-ming/</url>
-      
-        <content type="html"><![CDATA[<p>sdgfsd</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>afvadsfvasdfv</title>
-      <link href="/2023/01/18/yi-ge/pabzgab/"/>
-      <url>/2023/01/18/yi-ge/pabzgab/</url>
-      
-        <content type="html"><![CDATA[<p>sdvgadsvasdzvazsdvzsxvzsrdgsvd<br>![[pabzgab-1.png]]</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 一个 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>就这个</title>
-      <link href="/2023/01/18/yi-ge/zhe-shi-yi-ge-ce-shi/"/>
-      <url>/2023/01/18/yi-ge/zhe-shi-yi-ge-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<p>git<br>这就是一个</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 一个 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Task</title>
-      <link href="/2023/01/18/bo-ke/task/"/>
-      <url>/2023/01/18/bo-ke/task/</url>
-      
-        <content type="html"><![CDATA[<ul><li><input disabled="" type="checkbox"> 税务局</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 个人 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>obsidian git+hexo+GitHub+Github action部署</title>
-      <link href="/2023/01/18/bo-ke/obsidian-git-hexo-github-github-action-bu-shu/"/>
-      <url>/2023/01/18/bo-ke/obsidian-git-hexo-github-github-action-bu-shu/</url>
+      <link href="/2023/01/20/bo-ke/obsidian-git-hexo-github-github-action-bu-shu/"/>
+      <url>/2023/01/20/bo-ke/obsidian-git-hexo-github-github-action-bu-shu/</url>
       
         <content type="html"><![CDATA[<p>在obsidian中写内容</p><h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p>官网下载</p><h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><h2 id="GitHub建立-用户名-github-io-库"><a href="#GitHub建立-用户名-github-io-库" class="headerlink" title="GitHub建立  用户名.github.io 库"></a>GitHub建立  用户名.github.io 库</h2><h2 id="安装git-选择hexo文件夹"><a href="#安装git-选择hexo文件夹" class="headerlink" title="安装git 选择hexo文件夹"></a>安装git 选择hexo文件夹</h2><pre><code>obsidian gitFolder focus mode</code></pre><h2 id="配置action"><a href="#配置action" class="headerlink" title="配置action"></a>配置action</h2><p>建立 源文件库<br>配置ssh和token<br>添加action</p><h2 id="分别commit-push命令"><a href="#分别commit-push命令" class="headerlink" title="分别commit push命令"></a>分别commit push命令</h2>]]></content>
       
