@@ -91,7 +91,47 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        
+        <h3 id="下载软件"><a href="#下载软件" class="headerlink" title="下载软件"></a>下载软件</h3><p>node.js  <a target="_blank" rel="noopener" href="https://www.cnblogs.com/liuqiyun/p/8133904.html">修改缓存位置</a></p>
+<p>git  <a target="_blank" rel="noopener" href="https://www.cnblogs.com/xueweisuoyong/p/11914045.html">Git安装教程</a></p>
+<h4 id="验证下载是否成功"><a href="#验证下载是否成功" class="headerlink" title="验证下载是否成功"></a>验证下载是否成功</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v（这个是node附带的）</span><br><span class="line">git -v</span><br></pre></td></tr></table></figure>
+
+<h4 id="下载hexo"><a href="#下载hexo" class="headerlink" title="下载hexo"></a>下载hexo</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+<h3 id="在Github搭建仓库"><a href="#在Github搭建仓库" class="headerlink" title="在Github搭建仓库"></a>在Github搭建仓库</h3><p>仓库命名：用户名.github.io</p>
+<p>public</p>
+<p>添加readme文件</p>
+<h3 id="生成SHH-Keys"><a href="#生成SHH-Keys" class="headerlink" title="生成SHH Keys"></a>生成SHH Keys</h3><p>任意文件夹内，右键，Git bash</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;邮件地址&quot;</span><br></pre></td></tr></table></figure>
+
+<p>一直回车</p>
+<p>然后进入C:\Users\用户名，在里面进入.ssh文件</p>
+<p>用记事本打开里面的id_rsa.pub,全选复制里面的代码</p>
+<h4 id="Github创建SHH"><a href="#Github创建SHH" class="headerlink" title="Github创建SHH"></a>Github创建SHH</h4><p>setting→SHH→新建→随意命名，默认类型→粘贴，创建</p>
+<h4 id="测试是否成功"><a href="#测试是否成功" class="headerlink" title="测试是否成功"></a>测试是否成功</h4><p>git bash </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+
+<p>显示成功连接</p>
+<h3 id="生成本地博客"><a href="#生成本地博客" class="headerlink" title="生成本地博客"></a>生成本地博客</h3><p>依次输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br><span class="line">hexo install</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<p>如果显示找不到命令，命令前添加npx</p>
+<h3 id="上传博客"><a href="#上传博客" class="headerlink" title="上传博客"></a>上传博客</h3><p>进入Blog文件夹，用记事本打开_config.yml</p>
+<p>拉到最下面将deploy后面的全删掉，复制粘贴这段</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">type: git</span><br><span class="line">repository: </span><br><span class="line">branch: main</span><br></pre></td></tr></table></figure>
+
+<p>去github之前生成的仓库页面，点code，复制https链接</p>
+<p>将其粘贴到我们记事本中的<code>repository：</code>后面 <em><strong>记得删除git clone</strong></em></p>
+<p>然后保存退出</p>
+<p>回到博客文件夹，git bash</p>
+<p>安装自动部署发布工具</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo g（生成）</span><br><span class="line">hexo d（上传）</span><br></pre></td></tr></table></figure>
+
+<p>第一次git，需要配置</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;你的邮箱&quot;</span><br><span class="line">git config --global user.name &quot;你的名字&quot;	</span><br></pre></td></tr></table></figure>
+
+<p>在弹出窗口登录</p>
+<h3 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h3><p>登录     用户名.github.io   查看即可</p>
+
       
     </div>
     <footer class="article-footer">
@@ -99,6 +139,8 @@
       
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/" rel="tag">hexo</a></li></ul>
+
     </footer>
   </div>
   
@@ -168,9 +210,23 @@
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/hexo/" style="font-size: 10px;">hexo</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
